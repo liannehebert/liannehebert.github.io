@@ -6,7 +6,7 @@ figure{
 body{
 	background-color:#000;
 	background-repeat:no-repeat;
-	background-image:url(../self-portrait%20shoot/Self-portrait.jpg);
+	background-image:url(../img/self-portrait.jpg);
 	position:fixed;
 	background-size:cover;
 	-webkit-background-size: cover;
