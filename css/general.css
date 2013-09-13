@@ -1,0 +1,184 @@
+
+figure{
+	margin:0;
+}
+
+body{
+	background-color:#000;
+	background-repeat:no-repeat;
+	background-image:url(../self-portrait%20shoot/Self-portrait.jpg);
+	position:fixed;
+	background-size:cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.photo{
+	width:100%;
+	height:100%;
+	z-index:-10;
+}
+
+article{
+	float:left;
+	background-size:100% 100%;
+}
+
+header{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#FFF;
+	margin:0 0 0 1.5em;
+	padding:1em 0 0;
+}
+
+p{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#FFF;
+	padding:1.5em;
+}
+
+.bio-box{
+	background-color:#000;
+	margin:5% 75% 0 5%;
+	border-radius:10px;
+	opacity:.8;
+}
+
+.icon{
+	width:13%;
+	padding:5%;
+}
+
+
+@media only screen and (min-width: 11em){
+	.bio-box{
+		width:85%;
+		margin:60% auto;
+		background-color:#999;
+		overflow:hidden;
+	}
+	
+	.icon{
+		width:30%;
+	}
+	
+	header{
+		margin:5% auto auto 5%;
+	}
+	
+	p{
+		padding:0 .75em .75em .75em;
+		margin:0;
+	}
+
+}
+
+@media only screen and (min-width: 20em){
+	.icon{
+		width:20%;
+	}
+
+}
+
+@media only screen and (min-width: 33em){
+	.bio-box{
+		width:70%;
+		float:left;
+		margin-left:1em;
+	}
+	
+	.icon{
+		width:13%;
+	}
+}
+
+
+@media only screen and (min-width: 45em){
+
+	.bio-box{
+		width:75%;
+		margin:58% auto auto 10%;
+		background-color:#999;
+		overflow:hidden;
+	}
+
+	.icon{
+		width:10%;
+		padding:1em;
+	}
+	
+	header{
+		padding-top:0;
+		margin-left:1em;
+	}
+	
+}
+
+@media only screen and (min-width: 68em){
+	header{
+		margin-top:.5em;
+	}
+	
+	p{
+		column-count:2;
+		column-width:5em;
+	}
+	
+	.icon{
+		width:6%;
+	}
+}
+
+@media only screen and (min-width: 75em){
+	.bio-box{
+		background-color:#000;
+		margin:5% 75% 0 5%;
+		border-radius:10px;
+		opacity:.8;
+		width:25%;
+	}
+	
+	.icon{
+		width:15%;
+	}
+
+}
+
+@media only screen and (min-width: 85em){
+	.bio-box{
+		width:20%;
+	}
+}
+
+@media only screen and (min-width: 100em){
+	.bio-box{
+		width:25%;
+	}
+	
+	header{
+		font-size:1.6em;
+	}
+	
+	p{
+		font-size:1.1em;
+	}
+}
+
+@media only screen and (min-width: 120em){
+	p{
+		font-size:1.7em;
+	}
+}
+
+@media only screen and (min-width: 180em){
+	header{
+		font-size:3em;
+	}
+	
+	p{
+		font-size:2.5em;
+		line-height:1.6em;
+	}
+
+}
