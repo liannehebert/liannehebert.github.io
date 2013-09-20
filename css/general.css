@@ -1,5 +1,12 @@
 body{
 	background-color:#000;
+	background-repeat:no-repeat;
+	background-image:url(../img/self-portrait.jpg);
+	position:fixed;
+	background-size:cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 h1, h2{
@@ -44,7 +51,7 @@ p{
 
 .bio-box{
 	background-color:#525151;
-	margin:5% 50% 0 5%;
+	margin:65% 50% 0 1%;
 	border-radius:10px;
 	opacity:.8;
 }
@@ -54,10 +61,15 @@ p{
 	padding:5%;
 }
 
+.button{
+		width:45%;
+		margin-left:25%;
+		margin-right:15%;
+	}
+
 
 @media only screen and (min-width: 11em){
 	.bio-box{
-		margin:auto;
 		overflow:hidden;
 		width:98%;
 	}
@@ -81,6 +93,12 @@ p{
 		padding:.5em;
 		margin:0;
 	}
+	
+	.button{
+		width:35%;
+		margin-left:30%;
+		margin-right:15%;
+	}
 
 }
 
@@ -92,33 +110,44 @@ p{
 	p{
 		font-size:1em;
 	}
+	
+	.button{
+		width:25%;
+		margin-left:35%;
+		margin-right:15%;
+	}
 
 }
 
 @media only screen and (min-width: 33em){
 	.bio-box{
 		float:left;
-		margin-left:1em;
 	}
 	
 	.icon{
-		width:13%;
+		width:10%;
 	}
+	
+	.button{
+		width:20%;
+		margin-left:35%;
+		margin-right:25%;
+	}
+	
 }
 
 
 @media only screen and (min-width: 45em){
 
-	.bio-box{
-		width:95%;
-		background-color:#999;
-		overflow:hidden;
-		margin:1.5em;
-	}
-
 	.icon{
 		width:8%;
 		padding:1em;
+	}
+	
+	.button{
+		width:25%;
+		margin-left:35%;
+		margin-right:30%;
 	}
 	
 	header{
@@ -134,8 +163,8 @@ p{
 	}
 	
 	.bio-box{
-		margin:5em;
 		width:75%;
+		margin-left:10%;
 	}
 	
 	p{
@@ -148,17 +177,23 @@ p{
 	}
 	
 	.icon{
-		width:6%;
+		width:7%;
+	}
+	
+	.button{
+		width:20%;
+		margin-left:35%;
+		margin-right:15%;
 	}
 }
 
-@media only screen and (min-width: 75em){
+@media only screen and (min-width: 66em){
 	.bio-box{
 		background-color:#525151;
 		margin:5% 75% 0 5%;
 		border-radius:10px;
 		opacity:.8;
-		width:75%;
+		width:30%;
 	}
 	
 	figure img{
@@ -166,20 +201,27 @@ p{
 	}
 	
 	.icon{
-		width:5%;
+		width:15%;
+	}
+	
+	.button{
+		width:35%;
+		margin-left:30%;
+		margin-right:15%;
 	}
 
 }
 
 @media only screen and (min-width: 85em){
+
 	.bio-box{
-		width:80%;
+		width:24%;
 	}
 }
 
 @media only screen and (min-width: 100em){
 	.bio-box{
-		width:70%;
+		width:25%;
 	}
 	
 	header{
