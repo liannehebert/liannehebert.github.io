@@ -1,59 +1,15 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Lianne Hébert's Portfolio</title>
-<link rel="stylesheet" href="css/general.css">
-	<meta name="handheldfriendly" content="true">
-	<meta name="mobileoptimized" content="240">
-	<meta name="viewport" content="width=device-width;initial-scale=1">
-</head>
+---
+layout: default
+---
 
-
-<body>
-
-	<article>
-
-		<div class="bio-box">
-		
-			<header>
-				<h1>Lianne's Portfolio</h1>
-			</header>
-			
-			<h2>Here are some of the things she has done.</h2>
-			
-			<a href="index.html"><img src="img/about.png" alt="about" class="button"></a>
-			
+<h1>Portfolio</h1>
+<ul class="portfolio">
+	{% for portfolio in site.pages %}
+		<li>
 			<figure>
-				<img src="img/poster.jpg" alt="poster design">			
-				<p>Poster design and photography. Created for the Algonquin Theatre students' monologue evening.</p>
+				<img src="img/{{portfolio.thumb}}" alt="">
+				<figcaption>{{portfolio.name}}</figcaption>
 			</figure>
-			
-			<figure>
-				<img src="img/poppy.jpg" alt="poppy photo">			
-				<p>Photography: a blooming oriental poppy.</p>
-			</figure>
-			
-			<figure>
-				<img src="img/typography.png" alt="typographic infographic">
-				<p>Quidditch infographic; handmade typography.</p>
-			</figure>
-		
-		
-		
-		
-		</div>
-		
-		<a href="https://www.facebook.com/pages/Lianne-Hébert-Graphic-Design/272158256239758"><img src="img/fb-icon.png" alt="facebook" class="icon"></a>
-		<a href="mailto:princess.lianne@yahoo.ca"><img src="img/email.png" alt="email" class="icon"></a>
-
-			
-	</article>
-			
-
-
-
-
-
-</body>
-</html>
+		</li>
+	{% endfor %}
+	</ul>
