@@ -5,11 +5,13 @@ layout: default
 <h1>Portfolio</h1>
 <ul class="portfolio">
 	{% for portfolio in site.pages %}
+		{% if portfolio.category == "portfolio" %}
 		<li>
 			<figure>
 				<img src="img/{{portfolio.thumb}}" alt="">
 				<figcaption>{{portfolio.name}}</figcaption>
 			</figure>
 		</li>
+		{% endif %}
 	{% endfor %}
 	</ul>
