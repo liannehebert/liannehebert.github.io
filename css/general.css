@@ -57,7 +57,7 @@ p{
 }
 
 .icon ul{
-	width:13%;
+	height:13%;
 	padding:5%;
 }
 
@@ -75,7 +75,7 @@ p{
 	}
 	
 	.icon ul{
-		width:30%;
+		height:30%;
 	}
 	
 	header{
@@ -104,7 +104,7 @@ p{
 
 @media only screen and (min-width: 20em){
 	.icon ul{
-		width:15%;
+		height:15%;
 	}
 	
 	p{
@@ -125,7 +125,7 @@ p{
 	}
 	
 	.icon ul{
-		width:10%;
+		height:10%;
 	}
 	
 	.button{
@@ -140,7 +140,7 @@ p{
 @media only screen and (min-width: 45em){
 
 	.icon ul{
-		width:8%;
+		height:8%;
 		padding:1em;
 	}
 	
@@ -173,7 +173,7 @@ p{
 	}
 	
 	.photo img{
-		width:60%;
+		height:60%;
 	}
 	
 	.icon ul{
@@ -201,7 +201,7 @@ p{
 	}
 	
 	.icon ul{
-		width:15%;
+		height:15%;
 	}
 	
 	.button{
