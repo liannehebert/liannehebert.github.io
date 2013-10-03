@@ -8,7 +8,7 @@ title: portfolio
 	{% for portfolio in site.pages %}
 		{% if portfolio.category == "portfolio" %}
 		<li>
-			<figure>
+			<figure class="photo">
 				<img src="img/{{portfolio.thumb}}" alt="">
 				<figcaption>{{portfolio.name}}</figcaption>
 				{{portfolio.description}}
